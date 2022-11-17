@@ -54,18 +54,6 @@
               </AbstractNodeData>
               <AbstractNodeData Name="button" ActionTag="-555909685" Tag="132" IconVisible="False" LeftMargin="-116.0066" RightMargin="-290.9934" TopMargin="-116.9424" BottomMargin="-45.0576" TouchEnable="True" FontSize="48" LeftEage="8" RightEage="8" TopEage="8" BottomEage="8" Scale9OriginX="8" Scale9OriginY="8" Scale9Width="178" Scale9Height="95" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="407.0000" Y="162.0000" />
-                <Children>
-                  <AbstractNodeData Name="Image_2" ActionTag="910514109" Tag="134" IconVisible="False" LeftMargin="97.0193" RightMargin="249.9807" TopMargin="53.1900" BottomMargin="44.8100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
-                    <Size X="60.0000" Y="64.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="127.0193" Y="76.8100" />
-                    <Scale ScaleX="1.2600" ScaleY="1.2600" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3121" Y="0.4741" />
-                    <PreSize X="0.1474" Y="0.3951" />
-                    <FileData Type="Normal" Path="common/common_icon_gold_small.png" Plist="" />
-                  </AbstractNodeData>
-                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="87.4934" Y="35.9424" />
                 <Scale ScaleX="0.4000" ScaleY="0.4000" />
@@ -91,10 +79,22 @@
                 <OutlineColor A="255" R="26" G="26" B="26" />
                 <ShadowColor A="255" R="26" G="26" B="26" />
               </AbstractNodeData>
-              <AbstractNodeData Name="numCost" ActionTag="-91893605" Tag="133" IconVisible="False" LeftMargin="77.1564" RightMargin="-143.1564" TopMargin="-51.8560" BottomMargin="17.8560" FontSize="22" LabelText="600" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="numCost" ActionTag="-91893605" Tag="133" IconVisible="False" LeftMargin="71.9400" RightMargin="-137.9400" TopMargin="-52.3931" BottomMargin="18.3931" FontSize="22" LabelText="600" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
                 <Size X="66.0000" Y="34.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_2" ActionTag="910514109" Tag="134" IconVisible="False" LeftMargin="-47.9451" RightMargin="53.9451" TopMargin="-15.7506" BottomMargin="-14.2494" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="22" Scale9Height="22" ctype="ImageViewObjectData">
+                    <Size X="60.0000" Y="64.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-17.9451" Y="17.7506" />
+                    <Scale ScaleX="0.4700" ScaleY="0.4700" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.2719" Y="0.5221" />
+                    <PreSize X="0.9091" Y="1.8824" />
+                    <FileData Type="Normal" Path="common/common_icon_gold_small.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="110.1564" Y="34.8560" />
+                <Position X="104.9400" Y="35.3931" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />

@@ -1,5 +1,5 @@
 <GameFile>
-  <PropertyGroup Name="Scene1" Type="Scene" ID="5459a7bd-27dd-4ff4-8f9c-d582dda25e9d" Version="3.10.0.0" />
+  <PropertyGroup Name="shopScene" Type="Scene" ID="5459a7bd-27dd-4ff4-8f9c-d582dda25e9d" Version="3.10.0.0" />
   <Content ctype="GameProjectContent">
     <Content>
       <Animation Duration="0" Speed="1.0000" />
@@ -94,10 +94,10 @@
           <AbstractNodeData Name="goldItem" ActionTag="1761349515" Tag="70" IconVisible="True" LeftMargin="333.1161" RightMargin="306.8839" TopMargin="672.2587" BottomMargin="463.7413" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
-              <AbstractNodeData Name="Image_13" ActionTag="-1333375447" Tag="71" IconVisible="False" LeftMargin="-319.1312" RightMargin="-288.8688" TopMargin="-161.7525" BottomMargin="-136.2475" Scale9Enable="True" LeftEage="55" RightEage="55" TopEage="28" BottomEage="33" Scale9OriginX="55" Scale9OriginY="28" Scale9Width="498" Scale9Height="218" ctype="ImageViewObjectData">
+              <AbstractNodeData Name="Image_13" ActionTag="-1333375447" Tag="71" IconVisible="False" LeftMargin="-320.0103" RightMargin="-287.9897" TopMargin="-162.1921" BottomMargin="-135.8079" Scale9Enable="True" LeftEage="55" RightEage="55" TopEage="28" BottomEage="33" Scale9OriginX="55" Scale9OriginY="28" Scale9Width="498" Scale9Height="218" ctype="ImageViewObjectData">
                 <Size X="608.0000" Y="298.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="-15.1312" Y="12.7525" />
+                <Position X="-16.0103" Y="13.1921" />
                 <Scale ScaleX="1.1100" ScaleY="1.1100" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -172,6 +172,16 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="lobby/lobby_shop_item_background.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Image_3_0_0" ActionTag="-844733544" Tag="115" IconVisible="False" LeftMargin="14.0468" RightMargin="-163.0468" TopMargin="-198.8652" BottomMargin="65.8652" LeftEage="49" RightEage="49" TopEage="43" BottomEage="43" Scale9OriginX="49" Scale9OriginY="43" Scale9Width="51" Scale9Height="47" ctype="ImageViewObjectData">
+                <Size X="149.0000" Y="133.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="88.5468" Y="132.3652" />
+                <Scale ScaleX="1.0000" ScaleY="1.0000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="lobby/lobby_shop_item_gold_glow.png" Plist="" />
+              </AbstractNodeData>
               <AbstractNodeData Name="item" ActionTag="87584574" Tag="102" IconVisible="False" LeftMargin="27.9285" RightMargin="-146.9285" TopMargin="-142.2064" BottomMargin="76.2064" ctype="SpriteObjectData">
                 <Size X="119.0000" Y="66.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -197,18 +207,6 @@
               </AbstractNodeData>
               <AbstractNodeData Name="button" ActionTag="473722488" Tag="104" IconVisible="False" LeftMargin="-116.0066" RightMargin="-290.9934" TopMargin="-116.9424" BottomMargin="-45.0576" TouchEnable="True" FontSize="48" LeftEage="8" RightEage="8" TopEage="8" BottomEage="8" Scale9OriginX="8" Scale9OriginY="8" Scale9Width="178" Scale9Height="95" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="407.0000" Y="162.0000" />
-                <Children>
-                  <AbstractNodeData Name="Image_2" ActionTag="36766570" Tag="106" IconVisible="False" LeftMargin="105.5200" RightMargin="246.4800" TopMargin="53.6900" BottomMargin="45.3100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
-                    <Size X="55.0000" Y="63.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="133.0200" Y="76.8100" />
-                    <Scale ScaleX="1.2600" ScaleY="1.2600" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3268" Y="0.4741" />
-                    <PreSize X="0.1351" Y="0.3889" />
-                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
-                  </AbstractNodeData>
-                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="87.4934" Y="35.9424" />
                 <Scale ScaleX="0.4000" ScaleY="0.4000" />
@@ -222,10 +220,22 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="numCost" ActionTag="-1813104108" Tag="105" IconVisible="False" LeftMargin="84.7810" RightMargin="-126.7810" TopMargin="-52.5202" BottomMargin="18.5202" FontSize="22" LabelText="50" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="numCost" ActionTag="-1813104108" Tag="105" IconVisible="False" LeftMargin="80.4000" RightMargin="-122.4000" TopMargin="-51.4100" BottomMargin="17.4100" FontSize="22" LabelText="50" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
                 <Size X="42.0000" Y="34.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_2" ActionTag="36766570" Tag="106" IconVisible="False" LeftMargin="-45.6876" RightMargin="32.6876" TopMargin="-14.0904" BottomMargin="-14.9096" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
+                    <Size X="55.0000" Y="63.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-18.1876" Y="16.5904" />
+                    <Scale ScaleX="0.4700" ScaleY="0.4700" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.4330" Y="0.4880" />
+                    <PreSize X="1.3095" Y="1.8529" />
+                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="105.7810" Y="35.5202" />
+                <Position X="101.4000" Y="34.4100" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -255,6 +265,16 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="lobby/lobby_shop_item_background.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Image_3_0" ActionTag="-1998106296" Tag="114" IconVisible="False" LeftMargin="14.3300" RightMargin="-163.3300" TopMargin="-211.5760" BottomMargin="78.5760" LeftEage="49" RightEage="49" TopEage="43" BottomEage="43" Scale9OriginX="49" Scale9OriginY="43" Scale9Width="51" Scale9Height="47" ctype="ImageViewObjectData">
+                <Size X="149.0000" Y="133.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="88.8300" Y="145.0760" />
+                <Scale ScaleX="1.2000" ScaleY="1.2000" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="lobby/lobby_shop_item_gold_glow.png" Plist="" />
+              </AbstractNodeData>
               <AbstractNodeData Name="item" ActionTag="-1517476464" Tag="109" IconVisible="False" LeftMargin="25.9275" RightMargin="-148.9275" TopMargin="-178.1317" BottomMargin="81.1317" ctype="SpriteObjectData">
                 <Size X="123.0000" Y="97.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -280,18 +300,6 @@
               </AbstractNodeData>
               <AbstractNodeData Name="button" ActionTag="1373022543" Tag="111" IconVisible="False" LeftMargin="-116.0066" RightMargin="-290.9934" TopMargin="-116.9424" BottomMargin="-45.0576" TouchEnable="True" FontSize="48" LeftEage="8" RightEage="8" TopEage="8" BottomEage="8" Scale9OriginX="8" Scale9OriginY="8" Scale9Width="178" Scale9Height="95" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="407.0000" Y="162.0000" />
-                <Children>
-                  <AbstractNodeData Name="Image_2" ActionTag="431608046" Tag="113" IconVisible="False" LeftMargin="105.5200" RightMargin="246.4800" TopMargin="53.6900" BottomMargin="45.3100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
-                    <Size X="55.0000" Y="63.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="133.0200" Y="76.8100" />
-                    <Scale ScaleX="1.2600" ScaleY="1.2600" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3268" Y="0.4741" />
-                    <PreSize X="0.1351" Y="0.3889" />
-                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
-                  </AbstractNodeData>
-                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="87.4934" Y="35.9424" />
                 <Scale ScaleX="0.4000" ScaleY="0.4000" />
@@ -305,10 +313,22 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="numCost" ActionTag="1600909126" Tag="112" IconVisible="False" LeftMargin="87.4998" RightMargin="-128.4998" TopMargin="-51.4092" BottomMargin="17.4092" FontSize="22" LabelText="95" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="numCost" ActionTag="1600909126" Tag="112" IconVisible="False" LeftMargin="82.5000" RightMargin="-123.5000" TopMargin="-51.4092" BottomMargin="17.4092" FontSize="22" LabelText="95" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
                 <Size X="41.0000" Y="34.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_2" ActionTag="431608046" Tag="113" IconVisible="False" LeftMargin="-43.9290" RightMargin="29.9290" TopMargin="-14.0900" BottomMargin="-14.9100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
+                    <Size X="55.0000" Y="63.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-16.4290" Y="16.5900" />
+                    <Scale ScaleX="0.4700" ScaleY="0.4700" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.4007" Y="0.4879" />
+                    <PreSize X="1.3415" Y="1.8529" />
+                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="107.9998" Y="34.4092" />
+                <Position X="103.0000" Y="34.4092" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -338,6 +358,16 @@
                 <PreSize X="0.0000" Y="0.0000" />
                 <FileData Type="Normal" Path="lobby/lobby_shop_item_background.png" Plist="" />
               </AbstractNodeData>
+              <AbstractNodeData Name="Image_3" ActionTag="1786433081" Tag="113" IconVisible="False" LeftMargin="12.6245" RightMargin="-161.6245" TopMargin="-221.0876" BottomMargin="88.0876" LeftEage="49" RightEage="49" TopEage="43" BottomEage="43" Scale9OriginX="49" Scale9OriginY="43" Scale9Width="51" Scale9Height="47" ctype="ImageViewObjectData">
+                <Size X="149.0000" Y="133.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="87.1245" Y="154.5876" />
+                <Scale ScaleX="1.4200" ScaleY="1.4200" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition />
+                <PreSize X="0.0000" Y="0.0000" />
+                <FileData Type="Normal" Path="lobby/lobby_shop_item_gold_glow.png" Plist="" />
+              </AbstractNodeData>
               <AbstractNodeData Name="item" ActionTag="-1422414994" Tag="116" IconVisible="False" LeftMargin="18.5989" RightMargin="-148.5989" TopMargin="-202.8982" BottomMargin="81.8982" ctype="SpriteObjectData">
                 <Size X="130.0000" Y="121.0000" />
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
@@ -363,18 +393,6 @@
               </AbstractNodeData>
               <AbstractNodeData Name="button" ActionTag="-621417196" Tag="118" IconVisible="False" LeftMargin="-116.0066" RightMargin="-290.9934" TopMargin="-116.9424" BottomMargin="-45.0576" TouchEnable="True" FontSize="48" LeftEage="8" RightEage="8" TopEage="8" BottomEage="8" Scale9OriginX="8" Scale9OriginY="8" Scale9Width="178" Scale9Height="95" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
                 <Size X="407.0000" Y="162.0000" />
-                <Children>
-                  <AbstractNodeData Name="Image_2" ActionTag="789706204" Tag="120" IconVisible="False" LeftMargin="105.5200" RightMargin="246.4800" TopMargin="53.6900" BottomMargin="45.3100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
-                    <Size X="55.0000" Y="63.0000" />
-                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                    <Position X="133.0200" Y="76.8100" />
-                    <Scale ScaleX="1.2600" ScaleY="1.2600" />
-                    <CColor A="255" R="255" G="255" B="255" />
-                    <PrePosition X="0.3268" Y="0.4741" />
-                    <PreSize X="0.1351" Y="0.3889" />
-                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
-                  </AbstractNodeData>
-                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
                 <Position X="87.4934" Y="35.9424" />
                 <Scale ScaleX="0.4000" ScaleY="0.4000" />
@@ -388,10 +406,22 @@
                 <OutlineColor A="255" R="255" G="0" B="0" />
                 <ShadowColor A="255" R="110" G="110" B="110" />
               </AbstractNodeData>
-              <AbstractNodeData Name="numCost" ActionTag="119610619" Tag="119" IconVisible="False" LeftMargin="80.5001" RightMargin="-139.5001" TopMargin="-51.3556" BottomMargin="17.3556" FontSize="22" LabelText="475" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
+              <AbstractNodeData Name="numCost" ActionTag="119610619" Tag="119" IconVisible="False" LeftMargin="72.8100" RightMargin="-131.8100" TopMargin="-51.3556" BottomMargin="17.3556" FontSize="22" LabelText="475" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
                 <Size X="59.0000" Y="34.0000" />
+                <Children>
+                  <AbstractNodeData Name="Image_2" ActionTag="789706204" Tag="120" IconVisible="False" LeftMargin="-43.2855" RightMargin="47.2855" TopMargin="-14.0800" BottomMargin="-14.9200" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
+                    <Size X="55.0000" Y="63.0000" />
+                    <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                    <Position X="-15.7855" Y="16.5800" />
+                    <Scale ScaleX="0.4700" ScaleY="0.4700" />
+                    <CColor A="255" R="255" G="255" B="255" />
+                    <PrePosition X="-0.2676" Y="0.4876" />
+                    <PreSize X="0.9322" Y="1.8529" />
+                    <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
+                  </AbstractNodeData>
+                </Children>
                 <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="110.0001" Y="34.3556" />
+                <Position X="102.3100" Y="34.3556" />
                 <Scale ScaleX="1.0000" ScaleY="1.0000" />
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
@@ -407,6 +437,39 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.6719" Y="0.3073" />
             <PreSize X="0.0000" Y="0.0000" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Particle_1" ActionTag="1505010806" Tag="110" IconVisible="True" LeftMargin="133.0262" RightMargin="506.9738" TopMargin="663.6514" BottomMargin="472.3486" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="133.0262" Y="472.3486" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.2079" Y="0.4158" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="lobby/fx/fx_particle_shop_gold.plist" Plist="" />
+            <BlendFunc Src="770" Dst="1" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Particle_1_0" ActionTag="-1145854049" Tag="111" IconVisible="True" LeftMargin="320.1465" RightMargin="319.8535" TopMargin="665.0126" BottomMargin="470.9874" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="320.1465" Y="470.9874" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5002" Y="0.4146" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="lobby/fx/fx_particle_shop_gold.plist" Plist="" />
+            <BlendFunc Src="770" Dst="1" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Particle_1_1" ActionTag="-1247502916" Tag="112" IconVisible="True" LeftMargin="503.0256" RightMargin="136.9744" TopMargin="660.6945" BottomMargin="475.3055" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="503.0256" Y="475.3055" />
+            <Scale ScaleX="1.1000" ScaleY="1.1000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.7860" Y="0.4184" />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="lobby/fx/fx_particle_shop_gold.plist" Plist="" />
+            <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
         </Children>
       </ObjectData>

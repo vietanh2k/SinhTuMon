@@ -303,15 +303,19 @@
           <File Name="Thumbs.db" />
         </Folder>
         <Image Name="a.png" />
+        <Image Name="c.png" />
         <Project Name="cardItemShop.csd" Type="Node" />
+        <Image Name="Fake_Info_Chest_01.png" />
         <Image Name="HelloWorld.png" />
         <Project Name="MainScene.csd" Type="Scene" />
-        <Project Name="Node.csd" Type="Node" />
+        <Project Name="popupCard.csd" Type="Node" />
         <Project Name="popupGold.csd" Type="Node" />
         <Project Name="Scene.csd" Type="Scene" />
-        <Project Name="Scene1.csd" Type="Scene" />
         <Image Name="shop.png" />
-        <Project Name="shopItem.csd" Type="Scene" />
+        <Project Name="shopItem.csd" Type="Node" />
+        <Project Name="shopItem2.csd" Type="Scene" />
+        <Project Name="shopScene.csd" Type="Scene" />
+        <Project Name="popupChest.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>

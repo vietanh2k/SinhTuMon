@@ -83,18 +83,6 @@
           </AbstractNodeData>
           <AbstractNodeData Name="button" ActionTag="-628734754" Tag="79" IconVisible="False" LeftMargin="-201.0970" RightMargin="-205.9030" TopMargin="122.5800" BottomMargin="-284.5800" TouchEnable="True" FontSize="48" LeftEage="8" RightEage="8" TopEage="8" BottomEage="8" Scale9OriginX="8" Scale9OriginY="8" Scale9Width="178" Scale9Height="95" ShadowOffsetX="2.0000" ShadowOffsetY="-2.0000" ctype="ButtonObjectData">
             <Size X="407.0000" Y="162.0000" />
-            <Children>
-              <AbstractNodeData Name="Image_2" ActionTag="1295234387" Tag="81" IconVisible="False" LeftMargin="105.5200" RightMargin="246.4800" TopMargin="53.6900" BottomMargin="45.3100" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
-                <Size X="55.0000" Y="63.0000" />
-                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-                <Position X="133.0200" Y="76.8100" />
-                <Scale ScaleX="1.2600" ScaleY="1.2600" />
-                <CColor A="255" R="255" G="255" B="255" />
-                <PrePosition X="0.3268" Y="0.4741" />
-                <PreSize X="0.1351" Y="0.3889" />
-                <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
-              </AbstractNodeData>
-            </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="2.4030" Y="-203.5800" />
             <Scale ScaleX="0.4000" ScaleY="0.4000" />
@@ -120,10 +108,22 @@
             <OutlineColor A="255" R="26" G="26" B="26" />
             <ShadowColor A="255" R="26" G="26" B="26" />
           </AbstractNodeData>
-          <AbstractNodeData Name="numCost" ActionTag="1088096528" Tag="80" IconVisible="False" LeftMargin="1.7764" RightMargin="-43.7764" TopMargin="186.9226" BottomMargin="-220.9226" FontSize="22" LabelText="50" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
+          <AbstractNodeData Name="numCost" ActionTag="1088096528" Tag="80" IconVisible="False" LeftMargin="-1.8200" RightMargin="-40.1800" TopMargin="188.2200" BottomMargin="-222.2200" FontSize="22" LabelText="50" OutlineSize="2" OutlineEnabled="True" ShadowOffsetX="2.0000" ShadowOffsetY="-3.0000" ctype="TextObjectData">
             <Size X="42.0000" Y="34.0000" />
+            <Children>
+              <AbstractNodeData Name="Image_2" ActionTag="1295234387" Tag="81" IconVisible="False" LeftMargin="-46.1393" RightMargin="33.1393" TopMargin="-14.5647" BottomMargin="-14.4353" LeftEage="19" RightEage="19" TopEage="21" BottomEage="21" Scale9OriginX="19" Scale9OriginY="21" Scale9Width="17" Scale9Height="21" ctype="ImageViewObjectData">
+                <Size X="55.0000" Y="63.0000" />
+                <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+                <Position X="-18.6393" Y="17.0647" />
+                <Scale ScaleX="0.5800" ScaleY="0.5800" />
+                <CColor A="255" R="255" G="255" B="255" />
+                <PrePosition X="-0.4438" Y="0.5019" />
+                <PreSize X="1.3095" Y="1.8529" />
+                <FileData Type="Normal" Path="common/common_icon_g_small.png" Plist="" />
+              </AbstractNodeData>
+            </Children>
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="22.7764" Y="-203.9226" />
+            <Position X="19.1800" Y="-205.2200" />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
@@ -131,6 +131,17 @@
             <FontResource Type="Normal" Path="font/SVN-Supercell Magic.ttf" Plist="" />
             <OutlineColor A="255" R="26" G="26" B="26" />
             <ShadowColor A="255" R="0" G="0" B="0" />
+          </AbstractNodeData>
+          <AbstractNodeData Name="Particle_1" ActionTag="-924611799" Tag="157" IconVisible="True" LeftMargin="-3.2465" RightMargin="3.2465" TopMargin="57.3838" BottomMargin="-57.3838" ctype="ParticleObjectData">
+            <Size X="0.0000" Y="0.0000" />
+            <AnchorPoint />
+            <Position X="-3.2465" Y="-57.3838" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition />
+            <PreSize X="0.0000" Y="0.0000" />
+            <FileData Type="Normal" Path="lobby/fx/fx_particle_shop_gold.plist" Plist="" />
+            <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
         </Children>
       </ObjectData>
