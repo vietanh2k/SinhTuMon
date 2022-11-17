@@ -159,7 +159,7 @@
             <PrePosition X="0.6719" Y="0.6326" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="goldItem1" ActionTag="-1668381899" Tag="100" IconVisible="True" LeftMargin="55.3200" RightMargin="584.6800" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="goldItem1" ActionTag="-1668381899" Tag="4" IconVisible="True" LeftMargin="55.3200" RightMargin="584.6800" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="Image_1" ActionTag="-56658471" Tag="101" IconVisible="False" LeftMargin="8.4273" RightMargin="-165.4273" TopMargin="-214.4205" BottomMargin="12.4205" LeftEage="51" RightEage="51" TopEage="66" BottomEage="66" Scale9OriginX="51" Scale9OriginY="66" Scale9Width="55" Scale9Height="70" ctype="ImageViewObjectData">
@@ -252,7 +252,7 @@
             <PrePosition X="0.0864" Y="0.3073" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="goldItem2" ActionTag="-2047150150" Tag="107" IconVisible="True" LeftMargin="242.6800" RightMargin="397.3200" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="goldItem2" ActionTag="-2047150150" Tag="5" IconVisible="True" LeftMargin="242.6800" RightMargin="397.3200" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="Image_1" ActionTag="2076260257" Tag="108" IconVisible="False" LeftMargin="8.4273" RightMargin="-165.4273" TopMargin="-214.4205" BottomMargin="12.4205" LeftEage="51" RightEage="51" TopEage="66" BottomEage="66" Scale9OriginX="51" Scale9OriginY="66" Scale9Width="55" Scale9Height="70" ctype="ImageViewObjectData">
@@ -345,7 +345,7 @@
             <PrePosition X="0.3792" Y="0.3073" />
             <PreSize X="0.0000" Y="0.0000" />
           </AbstractNodeData>
-          <AbstractNodeData Name="goldItem3" ActionTag="1895674835" Tag="114" IconVisible="True" LeftMargin="430.0000" RightMargin="210.0000" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
+          <AbstractNodeData Name="goldItem3" ActionTag="1895674835" Tag="6" IconVisible="True" LeftMargin="430.0000" RightMargin="210.0000" TopMargin="786.9200" BottomMargin="349.0800" ctype="SingleNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <Children>
               <AbstractNodeData Name="Image_1" ActionTag="-1803373570" Tag="115" IconVisible="False" LeftMargin="8.4273" RightMargin="-165.4273" TopMargin="-214.4205" BottomMargin="12.4205" LeftEage="51" RightEage="51" TopEage="66" BottomEage="66" Scale9OriginX="51" Scale9OriginY="66" Scale9Width="55" Scale9Height="70" ctype="ImageViewObjectData">
