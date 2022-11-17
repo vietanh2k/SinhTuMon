@@ -90,7 +90,7 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="lobby/lobby_card_panel_box.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="cType1" ActionTag="309668887" Tag="138" IconVisible="False" LeftMargin="-93.1021" RightMargin="-14.8979" TopMargin="0.2965" BottomMargin="-106.2965" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="cType1" ActionTag="309668887" IconVisible="False" LeftMargin="-93.1021" RightMargin="-14.8979" TopMargin="0.2965" BottomMargin="-106.2965" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
             <Size X="108.0000" Y="106.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="-39.1021" Y="-53.2965" />
@@ -100,7 +100,7 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="lobby/treasure/common_icon_card_multiple_2.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="cType2" ActionTag="601656215" Tag="139" IconVisible="False" LeftMargin="50.4720" RightMargin="-158.4720" TopMargin="-0.3351" BottomMargin="-105.6649" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="cType2" ActionTag="601656215" Tag="2" IconVisible="False" LeftMargin="50.4720" RightMargin="-158.4720" TopMargin="-0.3351" BottomMargin="-105.6649" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
             <Size X="108.0000" Y="106.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="104.4720" Y="-52.6649" />
@@ -110,7 +110,7 @@
             <PreSize X="0.0000" Y="0.0000" />
             <FileData Type="Normal" Path="lobby/treasure/common_icon_card_multiple_4.png" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="cType3" ActionTag="-170628319" Tag="140" IconVisible="False" LeftMargin="-19.7326" RightMargin="-88.2674" TopMargin="0.4900" BottomMargin="-106.4900" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
+          <AbstractNodeData Name="cType3" ActionTag="-170628319" Tag="1" IconVisible="False" LeftMargin="-19.7326" RightMargin="-88.2674" TopMargin="0.4900" BottomMargin="-106.4900" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="38" ctype="ImageViewObjectData">
             <Size X="108.0000" Y="106.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="34.2674" Y="-53.4900" />

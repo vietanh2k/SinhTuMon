@@ -12,53 +12,6 @@
       },
       "AnimationList": [],
       "ObjectData": {
-        "Children": [
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "Fake_Info_Chest_01.png",
-              "Plist": ""
-            },
-            "BlendFunc": {
-              "Src": 770,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 320.764,
-              "Y": 568.6015
-            },
-            "Scale": {
-              "ScaleX": 1.0,
-              "ScaleY": 1.0
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.5012,
-              "Y": 0.5005
-            },
-            "PreSize": {
-              "X": 1.0,
-              "Y": 1.0
-            },
-            "LeftMargin": 0.764,
-            "RightMargin": -0.764,
-            "TopMargin": -0.6016,
-            "BottomMargin": 0.6015,
-            "Tag": 133,
-            "ActionTag": -1502228233,
-            "Size": {
-              "X": 640.0,
-              "Y": 1136.0
-            },
-            "Name": "Fake_Info_Chest_01_1",
-            "ctype": "SpriteObjectData"
-          }
-        ],
         "Size": {
           "X": 640.0,
           "Y": 1136.0
@@ -66,9 +19,7 @@
         "Name": "Scene",
         "ctype": "SingleNodeObjectData"
       },
-      "UsedResources": [
-        "Fake_Info_Chest_01.png"
-      ],
+      "UsedResources": [],
       "ctype": "GameFileData"
     }
   },
