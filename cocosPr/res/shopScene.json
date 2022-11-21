@@ -2003,6 +2003,63 @@
             },
             "Name": "Particle_1_1",
             "ctype": "ParticleObjectData"
+          },
+          {
+            "FontSize": 20,
+            "LabelText": "Shop đang cập nhật vật phẩm mới\n             Vui lòng thử lại sau!",
+            "FontResource": {
+              "Type": "Normal",
+              "Path": "font/SVN-Supercell Magic.ttf",
+              "Plist": ""
+            },
+            "OutlineColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "OutlineEnabled": true,
+            "ShadowColor": {
+              "R": 26,
+              "G": 26,
+              "B": 26
+            },
+            "ShadowOffsetX": 0.0,
+            "ShadowOffsetY": -2.0,
+            "ShadowEnabled": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.04,
+              "Y": 841.3
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5001,
+              "Y": 0.7406
+            },
+            "PreSize": {
+              "X": 0.7547,
+              "Y": 0.0511
+            },
+            "LeftMargin": 78.54,
+            "RightMargin": 78.46,
+            "TopMargin": 265.7,
+            "BottomMargin": 812.3,
+            "Tag": 171,
+            "ActionTag": 1715881625,
+            "Size": {
+              "X": 483.0,
+              "Y": 58.0
+            },
+            "Name": "text",
+            "ctype": "TextObjectData"
           }
         ],
         "Size": {

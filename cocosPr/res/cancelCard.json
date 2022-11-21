@@ -1,7 +1,7 @@
 {
-  "ID": "a2ee0952-26b5-49ae-8bf9-4f1d6279b798",
+  "ID": "e6f9ca8f-3fd4-4a7a-9b8e-5ee9f612cd1b",
   "Version": "3.10.0.0",
-  "Name": "MainScene",
+  "Name": "cancelCard",
   "Content": {
     "Content": {
       "Animation": {
@@ -12,53 +12,8 @@
       },
       "AnimationList": [],
       "ObjectData": {
+        "Tag": 54,
         "Children": [
-          {
-            "FileData": {
-              "Type": "Normal",
-              "Path": "e.png",
-              "Plist": ""
-            },
-            "BlendFunc": {
-              "Src": 1,
-              "Dst": 771
-            },
-            "AnchorPoint": {
-              "ScaleX": 0.5,
-              "ScaleY": 0.5
-            },
-            "Position": {
-              "X": 317.51,
-              "Y": 556.46
-            },
-            "Scale": {
-              "ScaleX": 1.33,
-              "ScaleY": 1.33
-            },
-            "CColor": {},
-            "IconVisible": false,
-            "PrePosition": {
-              "X": 0.4961,
-              "Y": 0.4898
-            },
-            "PreSize": {
-              "X": 0.8156,
-              "Y": 0.8063
-            },
-            "LeftMargin": 56.51,
-            "RightMargin": 61.49,
-            "TopMargin": 121.54,
-            "BottomMargin": 98.46,
-            "Tag": 58,
-            "ActionTag": -1508152988,
-            "Size": {
-              "X": 522.0,
-              "Y": 916.0
-            },
-            "Alpha": 216,
-            "Name": "e_2",
-            "ctype": "SpriteObjectData"
-          },
           {
             "FontSize": 12,
             "LabelText": "HỦY -",
@@ -86,8 +41,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 286.59,
-              "Y": 31.0
+              "X": -16.4117,
+              "Y": 0.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -96,24 +51,24 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.4478,
-              "Y": 0.0273
+              "X": 0.0,
+              "Y": 0.0
             },
             "PreSize": {
-              "X": 0.0766,
-              "Y": 0.0158
+              "X": 0.0,
+              "Y": 0.0
             },
-            "LeftMargin": 262.09,
-            "RightMargin": 328.91,
-            "TopMargin": 1096.0,
-            "BottomMargin": 22.0,
-            "Tag": 59,
-            "ActionTag": 251750760,
+            "LeftMargin": -40.9117,
+            "RightMargin": -8.0883,
+            "TopMargin": -9.0,
+            "BottomMargin": -9.0,
+            "Tag": 65,
+            "ActionTag": 1954191979,
             "Size": {
               "X": 49.0,
               "Y": 18.0
             },
-            "Name": "Text_1",
+            "Name": "calcelText",
             "ctype": "TextObjectData"
           },
           {
@@ -131,8 +86,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 320.7194,
-              "Y": 30.7387
+              "X": 17.7172,
+              "Y": 0.0
             },
             "Scale": {
               "ScaleX": 0.22,
@@ -141,19 +96,19 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.5011,
-              "Y": 0.0271
+              "X": 0.0,
+              "Y": 0.0
             },
             "PreSize": {
-              "X": 0.1172,
-              "Y": 0.0748
+              "X": 0.0,
+              "Y": 0.0
             },
-            "LeftMargin": 283.2194,
-            "RightMargin": 281.7806,
-            "TopMargin": 1062.7614,
-            "BottomMargin": -11.7613,
-            "Tag": 60,
-            "ActionTag": 1629753715,
+            "LeftMargin": -19.7828,
+            "RightMargin": -55.2172,
+            "TopMargin": -42.5,
+            "BottomMargin": -42.5,
+            "Tag": 64,
+            "ActionTag": -1311360773,
             "Size": {
               "X": 75.0,
               "Y": 85.0
@@ -188,8 +143,8 @@
               "ScaleY": 0.5
             },
             "Position": {
-              "X": 338.59,
-              "Y": 31.0
+              "X": 35.5876,
+              "Y": 0.0
             },
             "Scale": {
               "ScaleX": 1.0,
@@ -198,41 +153,40 @@
             "CColor": {},
             "IconVisible": false,
             "PrePosition": {
-              "X": 0.529,
-              "Y": 0.0273
+              "X": 0.0,
+              "Y": 0.0
             },
             "PreSize": {
-              "X": 0.0219,
-              "Y": 0.0158
+              "X": 0.0,
+              "Y": 0.0
             },
-            "LeftMargin": 331.59,
-            "RightMargin": 294.41,
-            "TopMargin": 1096.0,
-            "BottomMargin": 22.0,
-            "Tag": 62,
-            "ActionTag": -696153091,
+            "LeftMargin": 28.5876,
+            "RightMargin": -42.5876,
+            "TopMargin": -9.0,
+            "BottomMargin": -9.0,
+            "Tag": 63,
+            "ActionTag": -759593138,
             "Size": {
               "X": 14.0,
               "Y": 18.0
             },
-            "Name": "Text_1_0",
+            "Name": "numEnergy",
             "ctype": "TextObjectData"
           }
         ],
         "Size": {
-          "X": 640.0,
-          "Y": 1136.0
+          "X": 0.0,
+          "Y": 0.0
         },
-        "Name": "Scene",
+        "Name": "Node",
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
         "common/common_icon_energy.png",
-        "e.png",
         "font/SVN-Supercell Magic.ttf"
       ],
       "ctype": "GameFileData"
     }
   },
-  "Type": "Scene"
+  "Type": "Node"
 }

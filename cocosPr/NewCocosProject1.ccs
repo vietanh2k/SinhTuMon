@@ -70,6 +70,26 @@
           <Project Name="Scene.csd" Type="Scene" />
           <File Name="Thumbs.db" />
         </Folder>
+        <Folder Name="battle_result">
+          <Folder Name="fx">
+            <File Name="fx_result_draw.atlas" />
+            <File Name="fx_result_draw.json" />
+            <Image Name="fx_result_draw.png" />
+            <File Name="fx_result_lose.atlas" />
+            <File Name="fx_result_lose.json" />
+            <Image Name="fx_result_lose.png" />
+            <File Name="fx_result_win.atlas" />
+            <File Name="fx_result_win.json" />
+            <Image Name="fx_result_win.png" />
+          </Folder>
+          <Image Name="battle_result_avatar_border_loser.png" />
+          <Image Name="battle_result_health_box.png" />
+          <Image Name="battle_result_icon_swords_lose.png" />
+          <Image Name="battle_result_icon_swords_win.png" />
+          <Image Name="battle_result_line_lose.png" />
+          <Image Name="battle_result_line_win.png" />
+          <Image Name="battle_result_reward_box.png" />
+        </Folder>
         <Folder Name="card">
           <Folder Name="stat_icon">
             <Image Name="stat_icon_attack_speed.png" />
@@ -194,6 +214,10 @@
           <Image Name="common_treasure.png" />
           <Project Name="Scene.csd" Type="Scene" />
           <File Name="Thumbs.db" />
+          <Project Name="Layer.csd" Type="Layer" />
+          <Image Name="energyBar.png" />
+          <Project Name="cardInfor.csd" Type="Layer" />
+          <Project Name="cantLoadShop.csd" Type="Node" />
         </Folder>
         <Folder Name="font">
           <TTF Name="SVN-Avo bold.ttf" />
@@ -305,9 +329,17 @@
         <Image Name="a.png" />
         <Image Name="b.png" />
         <Image Name="c.png" />
+        <Project Name="cancelCard.csd" Type="Node" />
         <Project Name="cardItemShop.csd" Type="Node" />
+        <Image Name="d.png" />
+        <Image Name="e.png" />
+        <Project Name="energyBar.csd" Type="Node" />
         <Image Name="Fake_Info_Chest_01.png" />
+        <Image Name="Fake_Ingame-2.png" />
+        <Image Name="g.jpg" />
         <Image Name="HelloWorld.png" />
+        <Project Name="inforEndBattle.csd" Type="Layer" />
+        <Image Name="lobby_card_panel.png" />
         <Project Name="MainScene.csd" Type="Scene" />
         <Project Name="popupCard.csd" Type="Node" />
         <Project Name="popupChest.csd" Type="Node" />
@@ -318,6 +350,7 @@
         <Project Name="shopItem2.csd" Type="Scene" />
         <Project Name="shopScene.csd" Type="Scene" />
         <Project Name="updateBuy.csd" Type="Node" />
+        <Project Name="cantLoadShop.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>

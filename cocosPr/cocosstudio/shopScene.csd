@@ -471,6 +471,18 @@
             <FileData Type="Normal" Path="lobby/fx/fx_particle_shop_gold.plist" Plist="" />
             <BlendFunc Src="770" Dst="1" />
           </AbstractNodeData>
+          <AbstractNodeData Name="text" ActionTag="1715881625" Tag="171" IconVisible="False" LeftMargin="78.5400" RightMargin="78.4600" TopMargin="265.7000" BottomMargin="812.3000" FontSize="20" LabelText="Shop đang cập nhật vật phẩm mới&#xA;             Vui lòng thử lại sau!" OutlineEnabled="True" ShadowOffsetX="0.0000" ShadowOffsetY="-2.0000" ShadowEnabled="True" ctype="TextObjectData">
+            <Size X="483.0000" Y="58.0000" />
+            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
+            <Position X="320.0400" Y="841.3000" />
+            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <CColor A="255" R="255" G="255" B="255" />
+            <PrePosition X="0.5001" Y="0.7406" />
+            <PreSize X="0.7547" Y="0.0511" />
+            <FontResource Type="Normal" Path="font/SVN-Supercell Magic.ttf" Plist="" />
+            <OutlineColor A="255" R="26" G="26" B="26" />
+            <ShadowColor A="255" R="26" G="26" B="26" />
+          </AbstractNodeData>
         </Children>
       </ObjectData>
     </Content>
