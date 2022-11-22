@@ -182,6 +182,8 @@
             <PlistParticleFile Name="arena_particle.plist" />
             <File Name="Thumbs.db" />
           </Folder>
+          <Project Name="cantLoadShop.csd" Type="Node" />
+          <Project Name="cardInfor.csd" Type="Layer" />
           <Image Name="common_arena_forest.png" />
           <Image Name="common_avatar.png" />
           <Image Name="common_avatar_border.png" />
@@ -212,12 +214,12 @@
           <Image Name="common_tooltip_box.png" />
           <Image Name="common_tooltip_point.png" />
           <Image Name="common_treasure.png" />
+          <Image Name="energyBar.png" />
+          <Image Name="health2.png" />
+          <Project Name="Layer.csd" Type="Layer" />
           <Project Name="Scene.csd" Type="Scene" />
           <File Name="Thumbs.db" />
-          <Project Name="Layer.csd" Type="Layer" />
-          <Image Name="energyBar.png" />
-          <Project Name="cardInfor.csd" Type="Layer" />
-          <Project Name="cantLoadShop.csd" Type="Node" />
+          <Image Name="health1.png" />
         </Folder>
         <Folder Name="font">
           <TTF Name="SVN-Avo bold.ttf" />
@@ -330,6 +332,7 @@
         <Image Name="b.png" />
         <Image Name="c.png" />
         <Project Name="cancelCard.csd" Type="Node" />
+        <Project Name="cantLoadShop.csd" Type="Node" />
         <Project Name="cardItemShop.csd" Type="Node" />
         <Image Name="d.png" />
         <Image Name="e.png" />
@@ -337,6 +340,7 @@
         <Image Name="Fake_Info_Chest_01.png" />
         <Image Name="Fake_Ingame-2.png" />
         <Image Name="g.jpg" />
+        <Project Name="healthMonster.csd" Type="Node" />
         <Image Name="HelloWorld.png" />
         <Project Name="inforEndBattle.csd" Type="Layer" />
         <Image Name="lobby_card_panel.png" />
@@ -350,7 +354,6 @@
         <Project Name="shopItem2.csd" Type="Scene" />
         <Project Name="shopScene.csd" Type="Scene" />
         <Project Name="updateBuy.csd" Type="Node" />
-        <Project Name="cantLoadShop.csd" Type="Node" />
       </RootFolder>
     </Group>
   </SolutionFolder>
