@@ -215,11 +215,11 @@
           <Image Name="common_tooltip_point.png" />
           <Image Name="common_treasure.png" />
           <Image Name="energyBar.png" />
+          <Image Name="health1.png" />
           <Image Name="health2.png" />
           <Project Name="Layer.csd" Type="Layer" />
           <Project Name="Scene.csd" Type="Scene" />
           <File Name="Thumbs.db" />
-          <Image Name="health1.png" />
         </Folder>
         <Folder Name="font">
           <TTF Name="SVN-Avo bold.ttf" />
@@ -328,8 +328,63 @@
           <Image Name="telegram-cloud-document-5-6156724271788851731.jpg" />
           <File Name="Thumbs.db" />
         </Folder>
+        <Folder Name="map">
+          <Folder Name="fx">
+            <File Name="as_duoi.atlas" />
+            <File Name="as_duoi.json" />
+            <Image Name="as_duoi.png" />
+            <File Name="as_tren.atlas" />
+            <File Name="as_tren.json" />
+            <Image Name="as_tren.png" />
+            <File Name="ho_nuoc.atlas" />
+            <File Name="ho_nuoc.json" />
+            <Image Name="ho_nuoc.png" />
+            <File Name="map_icon_forest.atlas" />
+            <File Name="map_icon_forest.json" />
+            <Image Name="map_icon_forest.png" />
+          </Folder>
+          <Image Name="map_background.png" />
+          <Image Name="map_background_0000.png" />
+          <Image Name="map_background_0001.png" />
+          <Image Name="map_background_0002.png" />
+          <Image Name="map_background_0003.png" />
+          <Image Name="map_cell_0000.png" />
+          <Image Name="map_cell_0001.png" />
+          <Image Name="map_cell_0002.png" />
+          <Image Name="map_cell_0003.png" />
+          <Image Name="map_cell_shadow_0000.png" />
+          <Image Name="map_cell_shadow_0001.png" />
+          <Image Name="map_decoration_0001.png" />
+          <Image Name="map_decoration_0002.png" />
+          <Image Name="map_decoration_grass_0000.png" />
+          <Image Name="map_decoration_grass_0001.png" />
+          <Image Name="map_decoration_grass_0002.png" />
+          <Image Name="map_decoration_grass_0004.png" />
+          <Image Name="map_decoration_rock_0001.png" />
+          <Image Name="map_decoration_rock_0003.png" />
+          <Image Name="map_decoration_rock_0004.png" />
+          <Image Name="map_decoration_rock_0005.png" />
+          <Image Name="map_decoration_rock_0006.png" />
+          <Image Name="map_decoration_tree_0001.png" />
+          <Image Name="map_decoration_tree_0002.png" />
+          <Image Name="map_decoration_tree_0003.png" />
+          <Image Name="map_decoration_tree_0004.png" />
+          <Image Name="map_forest_edge_1.png" />
+          <Image Name="map_forest_edge_2.png" />
+          <Image Name="map_forest_obstacle_1.png" />
+          <Image Name="map_forest_obstacle_2.png" />
+          <Image Name="map_forest_obstacle_3.png" />
+          <Image Name="map_house.png" />
+          <Image Name="map_monster_gate_enemy.png" />
+          <Image Name="map_monster_gate_player.png" />
+          <Image Name="map_river_0000.png" />
+          <Image Name="map_river_0001.png" />
+        </Folder>
         <Image Name="a.png" />
         <Image Name="b.png" />
+        <Project Name="backgroundBattle.csd" Type="Layer" />
+        <PlistInfo Name="battleSheet.csi" Type="Plist" />
+        <Image Name="bbb.png" />
         <Image Name="c.png" />
         <Project Name="cancelCard.csd" Type="Node" />
         <Project Name="cantLoadShop.csd" Type="Node" />

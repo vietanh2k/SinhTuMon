@@ -42,9 +42,9 @@
             "Children": [
               {
                 "FileData": {
-                  "Type": "Normal",
+                  "Type": "MarkedSubImage",
                   "Path": "battle/battle_info_box.png",
-                  "Plist": ""
+                  "Plist": "battleSheet.plist"
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 29,
@@ -330,9 +330,9 @@
             "Children": [
               {
                 "FileData": {
-                  "Type": "Normal",
+                  "Type": "MarkedSubImage",
                   "Path": "battle/battle_info_box.png",
-                  "Plist": ""
+                  "Plist": "battleSheet.plist"
                 },
                 "Scale9Enable": true,
                 "Scale9OriginX": 29,
@@ -494,7 +494,8 @@
         "ctype": "SingleNodeObjectData"
       },
       "UsedResources": [
-        "battle/battle_info_box.png",
+        "battleSheet.plist",
+        "battleSheet.png",
         "common/common_avatar.png",
         "common/common_avatar_border.png",
         "common/common_icon_trophy.png",

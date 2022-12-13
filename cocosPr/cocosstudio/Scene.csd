@@ -17,7 +17,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="battle/battle_info_box.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="battle/battle_info_box.png" Plist="battleSheet.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="avatar" ActionTag="-1085035282" Tag="24" IconVisible="False" LeftMargin="-151.5121" RightMargin="114.5121" TopMargin="-18.5600" BottomMargin="-18.4400" ctype="SpriteObjectData">
                 <Size X="37.0000" Y="37.0000" />
@@ -83,7 +83,7 @@
                 <CColor A="255" R="255" G="255" B="255" />
                 <PrePosition />
                 <PreSize X="0.0000" Y="0.0000" />
-                <FileData Type="Normal" Path="battle/battle_info_box.png" Plist="" />
+                <FileData Type="MarkedSubImage" Path="battle/battle_info_box.png" Plist="battleSheet.plist" />
               </AbstractNodeData>
               <AbstractNodeData Name="icon" ActionTag="1929433545" Tag="19" IconVisible="False" LeftMargin="-126.1164" RightMargin="18.1164" TopMargin="-48.9538" BottomMargin="-56.0462" LeftEage="35" RightEage="35" TopEage="34" BottomEage="34" Scale9OriginX="35" Scale9OriginY="34" Scale9Width="38" Scale9Height="37" ctype="ImageViewObjectData">
                 <Size X="108.0000" Y="105.0000" />

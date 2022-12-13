@@ -28,5 +28,15 @@
         <LastRunType Value="Windows" />
       </Value>
     </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="shopItem2.csd" />
+          <FilePathData Path="backgroundBattle.csd" />
+          <FilePathData Path="battleSheet.csi" />
+        </OpenedDocuments>
+        <ActiveDocument Path="battleSheet.csi" />
+      </Value>
+    </Item>
   </Properties>
 </UserData>

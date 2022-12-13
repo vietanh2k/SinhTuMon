@@ -1,0 +1,26 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="battleSheet" Type="Plist" ID="10c81d43-7dc5-4bc3-96ab-4edfc724ea60" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="battle/battle_info_box.png" />
+      <FilePathData Path="map/map_decoration_grass_0000.png" />
+      <FilePathData Path="map/map_decoration_grass_0001.png" />
+      <FilePathData Path="map/map_decoration_grass_0002.png" />
+      <FilePathData Path="map/map_decoration_grass_0004.png" />
+      <FilePathData Path="map/map_decoration_rock_0001.png" />
+      <FilePathData Path="map/map_decoration_rock_0003.png" />
+      <FilePathData Path="map/map_decoration_rock_0004.png" />
+      <FilePathData Path="map/map_decoration_rock_0005.png" />
+      <FilePathData Path="map/map_decoration_rock_0006.png" />
+      <FilePathData Path="map/map_decoration_tree_0001.png" />
+      <FilePathData Path="map/map_decoration_tree_0002.png" />
+      <FilePathData Path="map/map_background_0002.png" />
+      <FilePathData Path="map/map_background_0003.png" />
+      <FilePathData Path="map/map_decoration_tree_0003.png" />
+      <FilePathData Path="map/map_decoration_tree_0004.png" />
+      <FilePathData Path="map/map_decoration_0002.png" />
+      <FilePathData Path="map/map_decoration_0001.png" />
+    </ImageFiles>
+    <MaxSize Width="1024" Height="1024" />
+  </Content>
+</PlistInfoProjectFile>
